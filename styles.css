@@ -164,7 +164,6 @@ body > div {
 /* SIGNUP SECTION */
 
 .signup-section {
-    /* display: flex; */
     background-color: #fff;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -195,10 +194,6 @@ body > div {
     font-size: 18px;
 }
 
-/* .bluefield-button-section {
-    max-width: 35%;
-} */
-
 .bluefield-button {
     align-self: center;
     flex-shrink: 0;
@@ -221,4 +216,6 @@ body > div {
     align-items: center;
     color: #e5e7eb;
     font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
