@@ -172,11 +172,14 @@ body > div {
 
 .signup-bluefield {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #3882f6;
     border-radius: 15px;
-    padding: 50px 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .bluefield-text {
@@ -197,6 +200,7 @@ body > div {
 } */
 
 .bluefield-button {
+    align-self: center;
     flex-shrink: 0;
     text-wrap: nowrap;
     color: #e5e7eb;
